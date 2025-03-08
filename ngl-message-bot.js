@@ -11,7 +11,7 @@ const sendMessage = async (username, message) => {
             const formattedDate = `${hours}:${minutes}`;
 
             const deviceId = crypto.randomBytes(21).toString("hex");
-            const url = "https://ngl.link/api/submit";
+            const url = "https://ngl.link/honestly._.sanyaa?fbclid=PAZXh0bgNhZW0CMTEAAaZX8rvp6eRk7T6fWg4DG2-gSnHP6u8bBHY5Hj89kPjaf-TjAhKFf_1kHQs_aem_IQi9CaUFLt7URTycYftRLw.";
             const headers = {
                 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0",
                 "Accept": "*/*",
